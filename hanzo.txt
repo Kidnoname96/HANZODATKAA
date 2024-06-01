@@ -1,0 +1,6 @@
+discord.py
+discord
+nextcord
+requests
+gtts
+flask
