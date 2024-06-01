@@ -25,7 +25,6 @@ class config:
     # Your Discord Server ID, must be int. | Example: 721939142455459902
     guildID = 1055570554310103210
     # Your Discord Bot Token
-    TOKEN = "MTA5NTE5NDkzMzIwMTIxMTQ3Mg.Gg1V9b.SmaXLlYFMLdmWr1i2OyqYRMRISDILDB2dxNcP0"
     channelID = "1205520470888288286"
 # Events
 
