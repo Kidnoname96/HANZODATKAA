@@ -13,6 +13,7 @@ import random
 from gtts import gTTS
 from discord.ui import Button
 import keep_alive
+bot = Bot(token=os.environ.get('token'))
 # setting
 client = commands.Bot(command_prefix='.', intents=discord.Intents.all())
 client.remove_command('help')
@@ -1554,4 +1555,3 @@ async def live_status():
     if pcount > 0:
         ()
 keep_alive.keep_alive()
-client.run(config.TOKEN)
